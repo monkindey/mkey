@@ -3,46 +3,97 @@ layout: default
 title: Your New Jekyll Site
 ---
 <div id="impress" class="impress-supported">
-			<div class="step slide present" data-y="-1500" data-x="-1000" >
-				<div style="float: left;margin-right: 50px">
-				<p>姓名 :张楷豪</p>
-				<p>出生年月 :1993-07</p>
-				<p>联系电话:18826409154</p>
+			<div id="notice" class="step slide present" data-y="-1500" data-x="-2000">
+				<h3>使用须知</h3>
+				<div style="margin-bottom: 20px">
+					<span>一</span>最好使用<span>chrome</span><span>火狐</span>要用IE的话最好是<span>IE11</span>，国内的浏览器(360、猎豹、搜狗)
+					由于是双核的，尽量切换到chrome内核；<br />
+					<ul>
+						<li><span>1</span>360安全浏览器: 在地址栏尾部有一个e图标或者是闪电图标，e图标是代表IE内核，
+					                              闪电图标是chrome内核，点击图标就可以切换了。</li>
+						<li><span>2</span>猎豹浏览器 : 点地址栏首部绿色小盾，然后选择极速模式</li>
+						<li><span>3</span>搜狗浏览器 : 点击地址栏尾部的图标，然后进行选择,极速模式代表chrome内核，兼容模式代表IE内核</li>
+					</ul>
 				</div>
-				<div style="height:150px;width: 180px;border:1px solid blue;float: left">
-					<img src="img/avatar.jpg" height="150px" width="180px"/>
+				<div>
+					<span>二</span>可用快捷键，空格键、右箭头、下箭头、page Dn是用来播放下一个，
+					左箭头、上箭头、page Up用来播放上一个。
+				</div>
+					
+			</div>
+			<div id="info" class="step slide" data-y="-1500" data-x="-1000" >
+				<div style="float: left;margin-right: 50px">
+					<p>
+						<span>姓名</span>张楷豪
+					</p>
+					<p>
+						<span>出生年月 </span>1993-07
+					</p>
+					<p id="tel">
+						<span>联系电话</span>18826409154
+					</p>
+				</div>
+				<div style="float: left;margin-left: 30px">
+					<img src="img/avatar.jpg" style="border:10px solid #ccc"
+/>
 				</div>
 				<div style="clear: both"></div>
 				<div>
-				<p>就读情况：广东工业大学计算机学院网络工程11级3班</p>
-				<p>在校情况：<br />
-					      (1) 大一大二连续两年拿到三等奖学金<br />
-					      (2) 2012-11月加入我院10大团队之一Topview团队<br />
-					      (3) 预备党员 11月份转正
-				</p>
-				<p>邮箱 ： monkindey@163.com</p>
+					<p>
+						<span>就读情况</span>
+						<br/>
+						广东工业大学 计算机学院 网络工程 11级3班 大三在校
+					</p>
+					<p>
+						<span>学习情况</span>
+						<br />
+						(1) 大一大二连续两年拿到三等奖学金
+						<br />
+						(2) 2012-11月加入我院10大团队之一Topview团队
+						<br />
+					</p>
+					<p>
+						<span>邮箱</span> monkindey@163.com
+					</p>
 				</div>
 			</div>
-			<div class="step slide " data-y="-1500" data-x="0" style="position: absolute;transform: translate(-50%,-56%)">
-                 <h3>个人技能</h3>
-                 <ul>
-                 	<li>1 熟悉javascript、css、HTML技术实现页面交互</li>
-                 	<li>2 深入了解前端Ext框架，了解其事件机制，继承机制等</li>
-                 	<li>3 熟悉impress.js库的使用</li>
-                 	<li>4 了解Ajax，并使用JSON格式实现前后台的交接</li>
-                 	<li>5 对Web可用性和可访问性有一定的了解</li>
-                 	<li>6 具备英文阅读文档能力</li>
-                 </ul>
+			<div id="tech" class="step slide " data-y="-1500" data-x="0" style="position: absolute;transform: translate(-50%,-56%)">
+				<h3>个人技能</h3>
+				<ul>
+					<li>
+						<span>1</span>熟悉javascript、css、HTML技术实现页面交互
+					</li>
+					<li>
+						<span>2</span>深入了解前端Ext框架，了解其事件机制，继承机制等
+					</li>
+					<li>
+						<span>3</span> 熟悉impress.js库的使用
+					</li>
+					<li>
+						<span>4</span> 了解Ajax，并使用JSON格式实现前后台的交接
+					</li>
+					<li>
+						<span>5</span> 对Web可用性和可访问性有一定的了解
+					</li>
+					<li>
+						<span>6</span> 具备英文阅读文档能力
+					</li>
+				</ul>
 			</div>
 			<div class="step" data-x="500" data-y="0" data-scale="2" data-rotate="180">
-				         对过去的记忆 ：加入topview团队应该是我大学做得最正确的事情，认识了技术，认识了爱好技术的人。 
+				<div class="talk">
+					对过去的记忆 ：加入topview团队应该是我大学做得最正确的事情，认识了技术，认识了爱好技术的人。
+				</div>
 			</div>
 			<div class="step " data-x="-1000" data-y="0" data-scale="2" data-rotate="90">
-				<h5>对未来的展望：拆看了前端牛人的框架或者库，希望总有一天能拥有属于自己的库</h5>
+				<div class="talk">
+					对未来的展望：拆看了前端牛人的框架，希望有一天能拥有属于自己的库
+				</div>
 			</div>
 			<div class="step "  data-scale="5">
-				
-			</div>		</div>
+
+			</div>
+		</div>
 		<script src="js/impress.js"></script>
 		<script>
 			impress().init();
