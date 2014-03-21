@@ -55,9 +55,15 @@
 				height: 170px;
 				width: 220px;
 				transition: transform 2s;
+                               -webkit-transition : -webkit-transform 2s;
+                               -moz-transition : -webkit-transform 2s;
+                               -ms-transition : -ms-transform 2s;
 			}
 			#impress .step img:hover {
 				transform: scale(1.5);
+                               -webkit-transform : scale(1.5);
+                               -moz=transform : scale(1.5);
+                               -ms-transform : scale(1.5);
 			}
 			/*写上一些话*/
 			#impress .talk {

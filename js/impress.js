@@ -362,7 +362,7 @@
             
             css(body, {
                 height: "100%",
-                //overflow: "hidden"
+                overflow: "hidden"
             });
             
             var rootStyles = {
