@@ -1,0 +1,21 @@
+{
+	"name": "resume",
+	"version": "0.1.0",
+	"main": "",
+	"description": "curriculum vitae",
+	"homepage": "",
+	"bugs": "",
+	"author": {
+		"name": "monkindey",
+		"email": "monkindey@163.com"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-uglify": "~0.6.0",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-cssmin": "~0.9.0",
+		"grunt-text-replace": "~0.3.10",
+		"grunt-contrib-imagemin": "^0.7.1"
+	}
+}
