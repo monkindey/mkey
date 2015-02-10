@@ -1,6 +1,6 @@
 /**
  * @author monkindey
- * @date 2014-11-16
+ * @date 2014.11.16
  * @description resume grunt 配置文件
  */
 'use strict';

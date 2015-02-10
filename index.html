@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Resume of Monkindey</title>
-	<link rel="stylesheet" href="asset/dist/css/impress.min.css?t=20141117104836">
+	<link rel="stylesheet" href="asset/dist/css/impress.min.css?t=20150209234014">
 </head>
 <body>
 	<div id="impress" class="impress-supported">
@@ -54,8 +54,14 @@
 					<strong class="highlight">Email</strong>monkindey@163.com
 				</li>
 				<li>
-					<strong class="highlight">实习</strong>猎豹移动(原金山网络)
-					<img class="logo-of-cm" src="asset/dist/img/cmcm.jpg" alt="猎豹移动公司图标">
+					<strong class="highlight">实习</strong>
+					<div class="company">
+						<span class="name-of-company">猎豹移动(原金山网络)</span>
+						<img class="logo-of-cm" src="asset/dist/img/cmcm.jpg" alt="猎豹移动公司图标">
+						<br>
+						<span class="name-of-company">奇虎360</span>
+						<img class="logo-of-360" src="asset/dist/img/360.png" alt="奇虎360公司图标">
+					</div>
 				</li>
 				<li>
 					<strong class="highlight">就读</strong>广东工业大学 计算机学院 网络工程 11级
@@ -100,6 +106,7 @@
 		<div id="works" class="step slide" data-rotate="180">
 			<h3 class="title">作品展示</h3>
 			<ul class="gallery mt20">
+				<!-- 2048 -->
 				<li>
 					<img src="asset/dist/img/2048.webp" alt="monster 2048">
 					<p>
@@ -109,6 +116,7 @@
 						Webview 中内嵌 HTML/CSS/JS
 					</p>
 				</li>
+				<!-- gameboost -->
 				<li>
 					<img src="asset/dist/img/section.jpg" alt="clash of clans">
 					<p>
@@ -117,6 +125,18 @@
 					</p>
 					<p class="detail">
 						在手机上看效果更佳
+					</p>
+				</li>
+				<!-- flappy pig -->
+				<li>
+					<img src="asset/dist/img/flappy.png" alt="flappy bird">
+					<p>
+						<a href="http://monkindey.github.io/flappy/flappy.html" target="_blank">
+							flappy pig
+			 			</a>
+					</p>
+					<p class="detail">
+						相当于flappy bird
 					</p>
 				</li>
 			</ul>
@@ -132,7 +152,8 @@
 		</div>
 	</div>
 </body>
-<script src="asset/dist/js/impress_of_mine.min.js?t=20141117104836"></script>
+<script src="asset/dist/js/impress_of_mine.min.js?t=20150209234014"></script>
+<script src="microresume.js"></script>
 <script>
 	impress().init();
 </script>
