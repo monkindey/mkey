@@ -62,7 +62,7 @@
 			return function Me(config) {
 				config = config || {};
 				Me.superClass.constructor.call(this);
-				this.skills = this.skills.concat(['HTML5', 'CSS3', 'Grunt', 'Zepto', 'Webapp', 'ChromeDevtool']);
+				this.skills = this.skills.concat(['HTML5', 'CSS3', 'Grunt', 'Zepto', 'Webapp']);
 				apply(this, config);
 			}
 		}(),
