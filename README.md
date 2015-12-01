@@ -1,4 +1,4 @@
-### resume
+### 基于`impress`的个人简介(PS. 很久没更新)
 :book: [个人简介](http://www.monkindey.xyz/resume/)
 
 ### 用面向对象的Javascript来介绍一下自己
