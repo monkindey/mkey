@@ -94,11 +94,9 @@
 	});
 
 	var me = new Me({
-		ChineseName: '张楷豪',
-		EnglishName: 'monkindey',
-		Birthday: '0726',
-		Email: 'monkindey@163.com',
-		School: '广东工业大学计算机学院网络工程 11级'
+		name: 'monkindey',
+		email: 'monkindey@163.com',
+		school: '广东工业大学'
 	});
 
 	console.dir(me);
